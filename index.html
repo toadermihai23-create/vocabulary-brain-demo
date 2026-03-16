@@ -1,38 +1,59 @@
-<button onclick="openAddModal()">Add Word</button>
+<button onclick="openAddModal()" class="addBtn">+ Add Word</button>
 
 <div id="addModal" class="modal">
 
-<div class="card">
+<div class="glassCard">
 
 <h2>Add Vocabulary</h2>
 
-<input id="english" placeholder="English">
+<div class="field">
+<label>English</label>
+<input id="english">
+</div>
 
-<input id="spanish" placeholder="Spanish">
+<div class="field">
+<label>Spanish</label>
+<input id="spanish">
+</div>
 
-<input id="italian" placeholder="Italian">
+<div class="field">
+<label>Italian</label>
+<input id="italian">
+</div>
 
-<input id="french" placeholder="French">
+<div class="field">
+<label>French</label>
+<input id="french">
+</div>
 
-<input id="arabic" placeholder="Arabic">
+<div class="field">
+<label>Arabic</label>
+<input id="arabic">
+<input id="arabic_pron" placeholder="Pronunciation">
+</div>
 
-<input id="arabic_pron" placeholder="Arabic pronunciation">
+<div class="field">
+<label>German</label>
+<input id="german">
+<input id="german_pron" placeholder="Pronunciation">
+</div>
 
-<input id="german" placeholder="German">
+<div class="field">
+<label>Russian</label>
+<input id="russian">
+<input id="russian_pron" placeholder="Pronunciation">
+</div>
 
-<input id="german_pron" placeholder="German pronunciation">
-
-<input id="russian" placeholder="Russian">
-
-<input id="russian_pron" placeholder="Russian pronunciation">
-
+<div class="field">
+<label>Type</label>
 <select id="type">
-<option>word</option>
-<option>keyphrase</option>
-<option>expression</option>
+<option value="word">Word</option>
+<option value="keyphrase">Keyphrase</option>
+<option value="expression">Expression</option>
 </select>
+</div>
 
-<button onclick="saveWord()">Save</button>
+<button onclick="saveWord()" class="saveBtn">Save Word</button>
 
 </div>
 </div>
