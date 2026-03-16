@@ -1,42 +1,38 @@
-<!DOCTYPE html>
-<html>
+<button onclick="openAddModal()">Add Word</button>
 
-<head>
-<meta charset="UTF-8">
-<title>Polyglot Vocabulary</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<div id="addModal" class="modal">
 
-<body>
+<div class="card">
 
-<header>
+<h2>Add Vocabulary</h2>
 
-<h1>Polyglot Vocabulary</h1>
+<input id="english" placeholder="English">
 
-<div class="filters">
+<input id="spanish" placeholder="Spanish">
 
-<select id="typeFilter">
-<option value="all">All Types</option>
-<option value="word">Words</option>
-<option value="keyphrase">Keyphrases</option>
-<option value="expression">Expressions</option>
+<input id="italian" placeholder="Italian">
+
+<input id="french" placeholder="French">
+
+<input id="arabic" placeholder="Arabic">
+
+<input id="arabic_pron" placeholder="Arabic pronunciation">
+
+<input id="german" placeholder="German">
+
+<input id="german_pron" placeholder="German pronunciation">
+
+<input id="russian" placeholder="Russian">
+
+<input id="russian_pron" placeholder="Russian pronunciation">
+
+<select id="type">
+<option>word</option>
+<option>keyphrase</option>
+<option>expression</option>
 </select>
 
-<select id="categoryFilter">
-<option value="all">All Categories</option>
-<option value="travel">Travel</option>
-<option value="conversation">Conversation</option>
-</select>
+<button onclick="saveWord()">Save</button>
 
 </div>
-
-</header>
-
-<div id="alphabet"></div>
-
-<div id="vocabularyContainer"></div>
-
-<script src="app.js"></script>
-
-</body>
-</html>
+</div>
