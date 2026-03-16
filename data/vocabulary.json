@@ -1,0 +1,30 @@
+[
+{
+ "english":"city",
+ "spanish":"ciudad",
+ "italian":"città",
+ "french":"ville",
+ "arabic":"مدينة",
+ "arabic_pron":"madina",
+ "german":"Stadt",
+ "german_pron":"shtat",
+ "russian":"город",
+ "russian_pron":"gorod",
+ "type":"word",
+ "category":"travel"
+},
+{
+ "english":"break the ice",
+ "spanish":"romper el hielo",
+ "italian":"rompere il ghiaccio",
+ "french":"briser la glace",
+ "arabic":"كسر الجليد",
+ "arabic_pron":"kasr al-jalid",
+ "german":"das Eis brechen",
+ "german_pron":"das ays brekhen",
+ "russian":"растопить лёд",
+ "russian_pron":"rastopit lyod",
+ "type":"expression",
+ "category":"conversation"
+}
+]
